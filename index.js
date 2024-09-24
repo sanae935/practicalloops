@@ -22,7 +22,7 @@ if ( i % 3 === 0 && i % 5 === 0) {
     return true; 
 }
 
-function NextPrime(n) {
+function NextPrime(9) {
     let nextNum =n + 1; 
     while (true) {
     if (isPrime(nextNum)) {
@@ -32,3 +32,5 @@ function NextPrime(n) {
     nextNum++; 
 }
 }
+
+//Part 3: Feeling Loopy
